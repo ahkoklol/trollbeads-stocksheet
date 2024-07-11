@@ -1,11 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
 
-interface FileContent {
-  name: string;
-  content: string;
-}
-
 const App: React.FC = () => {
   const [physicalStockContent, setPhysicalStockContent] = useState<string>('');
   const [dailyStockContent, setDailyStockContent] = useState<string>('');
