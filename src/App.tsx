@@ -49,7 +49,7 @@ const App: React.FC = () => {
       <h1>Compare Daily Stock to Physical Stock</h1>
       <div>
         <label>
-          Physical Stock File:
+          Master file:
           <input type="file" onChange={(e) => handleFileChange(e, setPhysicalStockContent)} />
         </label>
       </div>
